@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67E6AEDB2E85C355007EC56C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 67E6AEDA2E85C355007EC56C /* SDWebImageSwiftUI */; };
+		67E6AEE62E85C990007EC56C /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 67E6AEE52E85C990007EC56C /* KeychainSwift */; };
+		67E6AEE92E85FD56007EC56C /* SwiftAI in Frameworks */ = {isa = PBXBuildFile; productRef = 67E6AEE82E85FD56007EC56C /* SwiftAI */; };
+		67E9E23E2E84ADC300F0DC6E /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 67E9E23D2E84ADC300F0DC6E /* Apollo */; };
+		67E9E2402E84ADC300F0DC6E /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 67E9E23F2E84ADC300F0DC6E /* ApolloAPI */; };
+		67E9E2422E84ADC300F0DC6E /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 67E9E2412E84ADC300F0DC6E /* ApolloSQLite */; };
+		67E9E2442E84ADC300F0DC6E /* ApolloTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 67E9E2432E84ADC300F0DC6E /* ApolloTestSupport */; };
+		67E9E2472E84D5E300F0DC6E /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 67E9E2452E84D5E300F0DC6E /* schema.graphqls */; };
+		67E9E24B2E84D7D900F0DC6E /* CharacterList.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 67E9E24A2E84D7CD00F0DC6E /* CharacterList.graphql */; };
+		67E9E24E2E84D97600F0DC6E /* CREDAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 67E9E24D2E84D97600F0DC6E /* CREDAPI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678D25FC2E84777400D2D0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678D25E22E84777200D2D0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678D25E92E84777300D2D0E1;
+			remoteInfo = CREDDemo;
+		};
+		678D26062E84777400D2D0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678D25E22E84777200D2D0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678D25E92E84777300D2D0E1;
+			remoteInfo = CREDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		678D25EA2E84777300D2D0E1 /* CREDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CREDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		678D25FB2E84777400D2D0E1 /* CREDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CREDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678D26052E84777400D2D0E1 /* CREDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CREDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E9E2452E84D5E300F0DC6E /* schema.graphqls */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		67E9E24A2E84D7CD00F0DC6E /* CharacterList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = CharacterList.graphql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		678D260D2E84777400D2D0E1 /* Exceptions for "CREDDemo" folder in "CREDDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 678D25E92E84777300D2D0E1 /* CREDDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		678D25EC2E84777300D2D0E1 /* CREDDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				678D260D2E84777400D2D0E1 /* Exceptions for "CREDDemo" folder in "CREDDemo" target */,
+			);
+			path = CREDDemo;
+			sourceTree = "<group>";
+		};
+		678D25FE2E84777400D2D0E1 /* CREDDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CREDDemoTests;
+			sourceTree = "<group>";
+		};
+		678D26082E84777400D2D0E1 /* CREDDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CREDDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678D25E72E84777300D2D0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E6AEDB2E85C355007EC56C /* SDWebImageSwiftUI in Frameworks */,
+				67E9E2402E84ADC300F0DC6E /* ApolloAPI in Frameworks */,
+				67E9E2442E84ADC300F0DC6E /* ApolloTestSupport in Frameworks */,
+				67E6AEE62E85C990007EC56C /* KeychainSwift in Frameworks */,
+				67E9E24E2E84D97600F0DC6E /* CREDAPI in Frameworks */,
+				67E9E23E2E84ADC300F0DC6E /* Apollo in Frameworks */,
+				67E6AEE92E85FD56007EC56C /* SwiftAI in Frameworks */,
+				67E9E2422E84ADC300F0DC6E /* ApolloSQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678D25F82E84777400D2D0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678D26022E84777400D2D0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678D25E12E84777200D2D0E1 = {
+			isa = PBXGroup;
+			children = (
+				678D25EC2E84777300D2D0E1 /* CREDDemo */,
+				678D25FE2E84777400D2D0E1 /* CREDDemoTests */,
+				678D26082E84777400D2D0E1 /* CREDDemoUITests */,
+				678D25EB2E84777300D2D0E1 /* Products */,
+				67E9E2462E84D5E300F0DC6E /* graphql */,
+			);
+			sourceTree = "<group>";
+		};
+		678D25EB2E84777300D2D0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678D25EA2E84777300D2D0E1 /* CREDDemo.app */,
+				678D25FB2E84777400D2D0E1 /* CREDDemoTests.xctest */,
+				678D26052E84777400D2D0E1 /* CREDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E9E2462E84D5E300F0DC6E /* graphql */ = {
+			isa = PBXGroup;
+			children = (
+				67E9E24A2E84D7CD00F0DC6E /* CharacterList.graphql */,
+				67E9E2452E84D5E300F0DC6E /* schema.graphqls */,
+			);
+			path = graphql;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678D25E92E84777300D2D0E1 /* CREDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678D260E2E84777400D2D0E1 /* Build configuration list for PBXNativeTarget "CREDDemo" */;
+			buildPhases = (
+				678D25E62E84777300D2D0E1 /* Sources */,
+				678D25E72E84777300D2D0E1 /* Frameworks */,
+				678D25E82E84777300D2D0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				678D25EC2E84777300D2D0E1 /* CREDDemo */,
+			);
+			name = CREDDemo;
+			packageProductDependencies = (
+				67E9E23D2E84ADC300F0DC6E /* Apollo */,
+				67E9E23F2E84ADC300F0DC6E /* ApolloAPI */,
+				67E9E2412E84ADC300F0DC6E /* ApolloSQLite */,
+				67E9E2432E84ADC300F0DC6E /* ApolloTestSupport */,
+				67E9E24D2E84D97600F0DC6E /* CREDAPI */,
+				67E6AEDA2E85C355007EC56C /* SDWebImageSwiftUI */,
+				67E6AEE52E85C990007EC56C /* KeychainSwift */,
+				67E6AEE82E85FD56007EC56C /* SwiftAI */,
+			);
+			productName = CREDDemo;
+			productReference = 678D25EA2E84777300D2D0E1 /* CREDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678D25FA2E84777400D2D0E1 /* CREDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678D26132E84777400D2D0E1 /* Build configuration list for PBXNativeTarget "CREDDemoTests" */;
+			buildPhases = (
+				678D25F72E84777400D2D0E1 /* Sources */,
+				678D25F82E84777400D2D0E1 /* Frameworks */,
+				678D25F92E84777400D2D0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678D25FD2E84777400D2D0E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				678D25FE2E84777400D2D0E1 /* CREDDemoTests */,
+			);
+			name = CREDDemoTests;
+			packageProductDependencies = (
+			);
+			productName = CREDDemoTests;
+			productReference = 678D25FB2E84777400D2D0E1 /* CREDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		678D26042E84777400D2D0E1 /* CREDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678D26162E84777400D2D0E1 /* Build configuration list for PBXNativeTarget "CREDDemoUITests" */;
+			buildPhases = (
+				678D26012E84777400D2D0E1 /* Sources */,
+				678D26022E84777400D2D0E1 /* Frameworks */,
+				678D26032E84777400D2D0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678D26072E84777400D2D0E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				678D26082E84777400D2D0E1 /* CREDDemoUITests */,
+			);
+			name = CREDDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = CREDDemoUITests;
+			productReference = 678D26052E84777400D2D0E1 /* CREDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678D25E22E84777200D2D0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					678D25E92E84777300D2D0E1 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					678D25FA2E84777400D2D0E1 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 678D25E92E84777300D2D0E1;
+					};
+					678D26042E84777400D2D0E1 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 678D25E92E84777300D2D0E1;
+					};
+				};
+			};
+			buildConfigurationList = 678D25E52E84777200D2D0E1 /* Build configuration list for PBXProject "CREDDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678D25E12E84777200D2D0E1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				67E9E23C2E84ADC300F0DC6E /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				67E9E24C2E84D97600F0DC6E /* XCLocalSwiftPackageReference "CREDAPI" */,
+				67E6AED92E85C355007EC56C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				67E6AEE42E85C990007EC56C /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				67E6AEE72E85FD56007EC56C /* XCRemoteSwiftPackageReference "SwiftAI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 678D25EB2E84777300D2D0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678D25E92E84777300D2D0E1 /* CREDDemo */,
+				678D25FA2E84777400D2D0E1 /* CREDDemoTests */,
+				678D26042E84777400D2D0E1 /* CREDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678D25E82E84777300D2D0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E9E2472E84D5E300F0DC6E /* schema.graphqls in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678D25F92E84777400D2D0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678D26032E84777400D2D0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678D25E62E84777300D2D0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E9E24B2E84D7D900F0DC6E /* CharacterList.graphql in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678D25F72E84777400D2D0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678D26012E84777400D2D0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678D25FD2E84777400D2D0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678D25E92E84777300D2D0E1 /* CREDDemo */;
+			targetProxy = 678D25FC2E84777400D2D0E1 /* PBXContainerItemProxy */;
+		};
+		678D26072E84777400D2D0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678D25E92E84777300D2D0E1 /* CREDDemo */;
+			targetProxy = 678D26062E84777400D2D0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		678D260F2E84777400D2D0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CREDDemo/CREDDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CREDDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitamatic.CREDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		678D26102E84777400D2D0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CREDDemo/CREDDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CREDDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitamatic.CREDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		678D26112E84777400D2D0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		678D26122E84777400D2D0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678D26142E84777400D2D0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitamatic.CREDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CREDDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CREDDemo";
+			};
+			name = Debug;
+		};
+		678D26152E84777400D2D0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitamatic.CREDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CREDDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CREDDemo";
+			};
+			name = Release;
+		};
+		678D26172E84777400D2D0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitamatic.CREDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CREDDemo;
+			};
+			name = Debug;
+		};
+		678D26182E84777400D2D0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QJ7DWU7T8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitamatic.CREDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CREDDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678D25E52E84777200D2D0E1 /* Build configuration list for PBXProject "CREDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678D26112E84777400D2D0E1 /* Debug */,
+				678D26122E84777400D2D0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678D260E2E84777400D2D0E1 /* Build configuration list for PBXNativeTarget "CREDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678D260F2E84777400D2D0E1 /* Debug */,
+				678D26102E84777400D2D0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678D26132E84777400D2D0E1 /* Build configuration list for PBXNativeTarget "CREDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678D26142E84777400D2D0E1 /* Debug */,
+				678D26152E84777400D2D0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678D26162E84777400D2D0E1 /* Build configuration list for PBXNativeTarget "CREDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678D26172E84777400D2D0E1 /* Debug */,
+				678D26182E84777400D2D0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		67E9E24C2E84D97600F0DC6E /* XCLocalSwiftPackageReference "CREDAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CREDAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67E6AED92E85C355007EC56C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		67E6AEE42E85C990007EC56C /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+		67E6AEE72E85FD56007EC56C /* XCRemoteSwiftPackageReference "SwiftAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mi12labs/SwiftAI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		67E9E23C2E84ADC300F0DC6E /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.23.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67E6AEDA2E85C355007EC56C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E6AED92E85C355007EC56C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		67E6AEE52E85C990007EC56C /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E6AEE42E85C990007EC56C /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		67E6AEE82E85FD56007EC56C /* SwiftAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E6AEE72E85FD56007EC56C /* XCRemoteSwiftPackageReference "SwiftAI" */;
+			productName = SwiftAI;
+		};
+		67E9E23D2E84ADC300F0DC6E /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E9E23C2E84ADC300F0DC6E /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		67E9E23F2E84ADC300F0DC6E /* ApolloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E9E23C2E84ADC300F0DC6E /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloAPI;
+		};
+		67E9E2412E84ADC300F0DC6E /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E9E23C2E84ADC300F0DC6E /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		67E9E2432E84ADC300F0DC6E /* ApolloTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67E9E23C2E84ADC300F0DC6E /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloTestSupport;
+		};
+		67E9E24D2E84D97600F0DC6E /* CREDAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CREDAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 678D25E22E84777200D2D0E1 /* Project object */;
+}
